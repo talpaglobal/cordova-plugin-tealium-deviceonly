@@ -47,7 +47,7 @@
         </config-file>
         <framework src="src/android/tealium.gradle" custom="true" type="gradleReference" />
 
-        <resource-file src="src/android/tealium-5.2.0.aar" target="src/android/tealium-5.2.0.aar" />
+        <resource-file src="src/android/tealium-5.3.0.aar" target="src/android/tealium-5.3.0.aar" />
         <resource-file src="src/android/tealium.lifecycle-5.0.4.aar" target="src/android/tealium.lifecycle-5.0.4.aar" />
 		<source-file src="src/android/TealiumPg.java" target-dir="src/org/apache/cordova/plugin" />
      </platform>
