@@ -118,7 +118,7 @@ var Tealium =  {
             }
 
 		console.log("Tealium eventType " + type);
-		console.log("Tealium eventData " + data);
+		console.log("Tealium eventData " + JSON.stringify(data, null, 4);
 		console.log("Tealium instance " + instance);
 
 		cordova.exec(
