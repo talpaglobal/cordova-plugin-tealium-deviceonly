@@ -115,8 +115,13 @@ var Tealium =  {
             if (typeof instance != "string"){
                 console.log("Tealium: instance name not specified. using default instance name of tealium_cordova.");
                 instance = "tealium_cordova";
-            }   
-        cordova.exec(
+            }
+
+		console.log("Tealium eventType " + type);
+		console.log("Tealium eventData " + data);
+		console.log("Tealium instance " + instance);
+
+		cordova.exec(
             tealium.successCallback, // success callback function
             tealium.errorCallback, // error callback function
             'TealiumPg', // plugin name
