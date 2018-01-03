@@ -5,7 +5,7 @@
     <name>cordova-plugin-tealium-deviceonly</name>
     <description>Tealium Tag Management</description>
     <keywords>tealium, tag, management,iOS,Android</keywords>
-    <repo>git+ssh://git@bitbucket.talpa.digital/cor/cordova-plugin-tealium-deviceonly.git</repo>
+    <repo>https://github.com/talpaglobal/cordova-plugin-tealium-deviceonly.git</repo>
     <license>Commercial</license>
 
     <engines>
