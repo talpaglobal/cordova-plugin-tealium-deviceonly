@@ -2,12 +2,10 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-tealium-deviceonly" version="1.1.0">
 
-    <name>TealiumCordova</name>
+    <name>cordova-plugin-tealium-deviceonly</name>
     <description>Tealium Tag Management</description>
     <keywords>tealium, tag, management,iOS,Android</keywords>
-    <repo>https://github.com/Tealium/cordova-plugin.git</repo>
-    <issue>https://github.com/Tealium/cordova-plugin/issues</issue>
-
+    <repo>git+ssh://git@bitbucket.talpa.digital/cor/cordova-plugin-tealium-deviceonly.git</repo>
     <license>Commercial</license>
 
     <engines>
